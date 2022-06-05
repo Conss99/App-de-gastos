@@ -1,0 +1,61 @@
+body {
+    background-color: #68A7AD;
+}
+
+.form-label {
+    color: lightcyan;
+    text-shadow: -2px 1px rgba(0, 0, 0, 0.212);
+}
+
+.form-control {
+    background-color: #c9f9fd;
+}
+
+.form-control:hover {
+    background-color: #dbfbff;
+}
+
+.d-flex {
+    background-color: #49ff9b;
+    margin: .1rem;
+    padding: .5rem 0rem .5rem .5rem;
+    max-width: 100%;
+    width: 100%;
+    border: #c2ffdd;
+    border-radius: .5rem;
+    border-style: solid;
+    text-shadow: -2px 1px rgba(0, 0, 0, 0.212);
+    box-shadow: -1.5px 1px rgba(0, 0, 0, 0.212);
+    text-align: center;
+    word-wrap: break-word;
+    color: lightcyan;
+}
+
+.subcontainer {
+    background-color: #49ff9b;
+    margin: .5rem;
+    padding: 1rem;
+    width: 50%;
+    border-radius: .5rem;
+    border-style: solid;
+    border: #c2ffdd;
+    text-shadow: -2px 1px rgba(0, 0, 0, 0.212);
+    box-shadow: -1.5px 1px rgba(0, 0, 0, 0.212);
+    color: lightcyan;
+    text-align: center;
+}
+
+#mainButton {
+    background-color: #49ff9b;
+    margin: .5rem;
+    border-style: solid;
+    border: #c2ffdd;
+    text-shadow: -2px 1px rgba(0, 0, 0, 0.212);
+    box-shadow: -1.5px 1px rgba(0, 0, 0, 0.212);
+    color: lightcyan;
+    text-align: center;
+}
+
+#mainButton:hover {
+    background-color: #7cffb7;
+}
