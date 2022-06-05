@@ -15,42 +15,53 @@
 
 <body>
 
-    <div class="container">
-        <div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nombre de la persona</label>
-                <input type="string" class="form-control" id="nombre">
+
+    <div id="titulo">
+        <div id="subtitulo">
+            <h3 class="st">App de gastos</h3>
+            <h5 class="st">ingresa cuánto pagó cada persona</h4>
+        </div>
+        <div class="container">
+            <div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre de la persona</label>
+                    <input type="string" class="form-control" id="nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Cantidad gastada</label>
+                    <input type="number" class="form-control" id="dinero">
+                </div>
+                <a onclick="agregar()" id="mainButton" class="btn btn-lg btn-primary">Agregar persona</a>
             </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Cantidad gastada</label>
-                <input type="number" class="form-control" id="dinero">
+
+            <div class="d-flex">
+                <div class="" id="historialNombre"></div>
+                <div class="ms-4" id="dollarSymbol"></div>
+                <div id="historialDinero"></div>
             </div>
-            <a onclick="agregar()" id="mainButton" class="btn btn-lg btn-primary">Agregar persona</a>
+
+            <div class="subcontainer">
+                <h5>Total gastado</h5>
+                <div id="resultado"></div>
+            </div>
+
+            <div class="subcontainer">
+                <h5>Total a pagar por persona</h5>
+                <div id="cut"></div>
+            </div>
+
         </div>
 
-        <div class="d-flex">
-            <div class="" id="historialNombre"></div>
-            <div class="ms-4" id="dollarSymbol"></div>
-            <div id="historialDinero"></div>
-        </div>
 
-        <div class="subcontainer">
-            <h5>Total gastado</h5>
-            <div id="resultado"></div>
-        </div>
 
-        <div class="subcontainer">
-            <h5>Total a pagar por persona</h5>
-            <div id="cut"></div>
-        </div>
 
-    </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
 </body>
 
 </html>
